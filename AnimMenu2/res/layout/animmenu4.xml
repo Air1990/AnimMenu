@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.animmenu2.view.AnimMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:airhome="http://schemas.android.com/apk/res/com.example.animmenu2"
+    android:id="@+id/animMenu4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    airhome:position="right_top"
+    airhome:radius="200dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_camera"
+        android:tag="composer_camera" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_music"
+        android:tag="composer_music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_place"
+        android:tag="composer_place" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_sleep"
+        android:tag="composer_sleep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/composer_thought"
+        android:tag="composer_thought" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu" />
+
+</com.example.animmenu2.view.AnimMenu>

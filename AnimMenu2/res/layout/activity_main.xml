@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <include layout="@layout/animmenu1" />
+    <include layout="@layout/animmenu2" />
+    <include layout="@layout/animmenu3" />
+    <include layout="@layout/animmenu4" />
+
+</RelativeLayout>
